@@ -16,9 +16,9 @@ class Sample extends Component {
   render() {
     return (
       <>
-        <h2>{this.state.company_name}</h2>
-        <h3>{this.state.address}</h3>
-        <table border="1" width="100%">
+        <h2>Company Name: - {this.state.company_name}</h2>
+        <h3>Address: - {this.state.address}</h3>
+        <table border="1" width="50%">
           <tr>
             <th>S.NO</th>
             <th>EMPLOYEE NAME</th>
